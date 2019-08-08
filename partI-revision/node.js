@@ -61,7 +61,8 @@ class Visitor {
     "14h00",
     "Enquiries",
     "Thembi");
-    visitor1.save();
+ visitor1.save();
+ 
 
     let visitor2 = new Visitor("Bob",
     21,
@@ -79,5 +80,5 @@ class Visitor {
     "Lesley");
     visitor3.save();
 
-    visitor1.load(1)
+visitor1.load(1); 
     
